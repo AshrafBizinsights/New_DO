@@ -1,37 +1,30 @@
-altair==4.2.2
+streamlit>=1.37
+
 IPython
 matplotlib
 numpy
 pandas
 plotly
 
-# Prophet + required backend
 prophet
 cmdstanpy
 
-# ML / Stats
 scikit-learn
 statsmodels
 xgboost
 joblib
 
-# Visualization
 seaborn
 
-# Streamlit
-streamlit
-
-# Excel / File handling
 openpyxl
 xlrd
 
-# Misc dependencies
 xyzservices
 yarl
 zope.interface
 
-# LLM client
 anthropic
+
 
 
 
