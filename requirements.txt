@@ -1,34 +1,35 @@
-altair==5.3.0
-IPython==8.24.0
-matplotlib==3.8.4
-numpy==1.26.4
-pandas==2.2.2
-plotly==5.22.0
+altair
+IPython
+matplotlib
+numpy
+pandas
+plotly
 
 # Prophet + required backend
-prophet==1.1.5
-cmdstanpy==1.2.2
+prophet
+cmdstanpy
 
 # ML / Stats
-scikit-learn==1.4.2
-statsmodels==0.14.2
-xgboost==1.6.2
-joblib==1.4.2
+scikit-learn
+statsmodels
+xgboost
+joblib
 
 # Visualization
-seaborn==0.13.2
+seaborn
 
 # Streamlit
-streamlit==1.36.0
+streamlit
 
 # Excel / File handling
-openpyxl==3.1.2
-xlrd==2.0.1
+openpyxl
+xlrd
 
 # Misc dependencies
-xyzservices==2024.6.0
-yarl==1.9.4
-zope.interface==6.4.post0
+xyzservices
+yarl
+zope.interface
 
 # LLM client
-anthropic==0.45.2
+anthropic
+
