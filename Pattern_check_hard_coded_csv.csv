@@ -1,0 +1,13 @@
+﻿Anomaly check,Granularity,Status,Comments
+Segment Changes,TRX_NP,Fail,TRX_NP market contribution have been changed compared to last week
+Segment Changes,TRX_PED,Fail,TRX_PED market contribution have been changed compared to last week
+Segment Changes,MOTRX_NP,Pass,
+Segment Changes,MOTRX_PED,Pass,
+Segment Changes,MOTRX_OTHERS,Pass,
+Segment Changes,TRX_OTHERS,Pass,
+Segment Changes,TRX_PHARMACY,Pass,
+Segment Changes,NBRX_NP,Pass,
+Segment Changes,NBRX_PED,Pass,
+Segment Changes,NBRX_OTHERS,Pass,
+Segment Changes,NBRX_MEDICAL BENEFIT,Pass,
+Segment Changes,NBRX_PHARMACY,Pass,

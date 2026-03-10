@@ -1,0 +1,15 @@
+,Dimension,Status,Comments,Check
+0,PRODUCT,Pass,,Not_Null
+1,PROD_LVL,Pass,,Not_Null
+2,SPECIALTY,Pass,,Not_Null
+3,SUB_SPECIALTY,Pass,,Not_Null
+4,SP_SOURCE,Pass,,Not_Null
+5,ds,Pass,,Not_Null
+6,INDICATION,Pass,,Not_Null
+7,MARKET_FLAG,Pass,,Not_Null
+8,TOTAL_RX,Pass.,Null detected. Not significantly different from historical trend.,Not_Null
+9,LEVEL_0_MARKET_FLAG,Pass,,Not_Null
+10,BIOSIMILAR_MOLECULE,Pass,,Not_Null
+11,CLASS,Pass,,Not_Null
+12,METRIC,Pass,,Not_Null
+13,COMPETITIVE_RX,Pass.,Null detected. Not significantly different from historical trend.,Not_Null
