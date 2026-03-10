@@ -1,0 +1,17 @@
+Dimension,Unique Check Result,Unique Check Comment.
+PRODUCT,Pass.,Proportionate with historical Unique trend
+PROD_LVL,Pass.,Proportionate with historical Unique trend
+SPECIALTY,Pass.,Proportionate with historical Unique trend
+SUB_SPECIALTY,Pass.,Proportionate with historical Unique trend
+SP_SOURCE,Pass.,Proportionate with historical Unique trend
+ds,Pass.,Proportionate with historical Unique trend
+INDICATION,Pass.,Proportionate with historical Unique trend
+MARKET_FLAG,Pass.,Proportionate with historical Unique trend
+LEVEL_0_MARKET_FLAG,Pass.,Proportionate with historical Unique trend
+BIOSIMILAR_MOLECULE,Pass.,Proportionate with historical Unique trend
+CLASS,Pass.,Proportionate with historical Unique trend
+METRIC,Pass.,Proportionate with historical Unique trend
+COMPETITIVE_RX,Pass.,Proportionate with historical Unique trend
+TOTAL_RX,Pass.,Proportionate with historical Unique trend
+ALLOCATED_WITHOUT_FDAP_RX,Pass.,Proportionate with historical Unique trend
+ALLOCATED_WITH_FDAP_RX,Pass.,Proportionate with historical Unique trend
