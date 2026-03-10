@@ -1,4 +1,4 @@
-altair
+altair==4.2.2
 IPython
 matplotlib
 numpy
@@ -32,4 +32,5 @@ zope.interface
 
 # LLM client
 anthropic
+
 
