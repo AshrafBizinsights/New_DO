@@ -32,5 +32,6 @@ zope.interface
 
 # LLM client
 anthropic
+imghdr
 
 
