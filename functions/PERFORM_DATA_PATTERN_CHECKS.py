@@ -144,7 +144,7 @@ def PERFORM_DATA_PATTERN_CHECKS(metric, aggreg, DATE_COLUMN_NAME, METRIC_COLUMN_
         else:
             filtered_data = FILTERED_DATA_FOR_CURRENT_METRIC.copy()
             AGGREGARTE_NEW_COLUMN = aggreg
-            AGGREGARTE_COLUMNS_LIST = [aggreg] + [DATE_COLUMN_NAME] + metricColumns
+            AGGREGARTE_COLUMNS_LIST = [aggreg] + ["ds"] + metricColumns
             selected_data = filtered_data[AGGREGARTE_COLUMNS_LIST].copy()
 
         # Renaming the Date column to DS and Metric column to Y
@@ -324,14 +324,6 @@ def PERFORM_DATA_PATTERN_CHECKS(metric, aggreg, DATE_COLUMN_NAME, METRIC_COLUMN_
         # grouped_data[others_bucket] = grouped_data[columns_to_add].sum(axis=1)
         # grouped_data = grouped_data.drop(columns=columns_to_add)
 
-        # Set the default width and height for all charts
-        st.set_option('deprecation.showPyplotGlobalUse', False)
-        st.set_option('deprecation.showfileUploaderEncoding', False)
-        plt.xlim(0, 20)
-        plt.figure(figsize=(10, 6))
-        plt.xlim(0, 20)
-        sns.set(style="whitegrid")
-
         # Calculate the cumulative sum of values for each group
         grouped_data = grouped_data.sort_values(by='ds')
         grouped_cumsum = grouped_data[unique_keys].cumsum(axis=1)
@@ -499,8 +491,8 @@ def PERFORM_DATA_PATTERN_CHECKS(metric, aggreg, DATE_COLUMN_NAME, METRIC_COLUMN_
                 
                 
             return PATTERN_CHECKS_RESULTS
-        pass
     except Exception as e: 
-        print(f"An error occurred: {e}")
+        st.write(f"An error occurred: {e}")
         
+
 
